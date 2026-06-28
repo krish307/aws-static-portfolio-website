@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+/* ===========================
+   Navigation Bar
+=========================== */
+
+.navbar{
+
+    width:100%;
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 8%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:rgba(15,23,42,0.80);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
+
+}
+
+.logo{
+
+    font-size:1.6rem;
+
+    font-weight:700;
+
+    color:#38bdf8;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#38bdf8;
+
+}
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#0f172a;
+
+    color:white;
+
+    padding-top:80px;
+
+}
