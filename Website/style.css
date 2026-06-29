@@ -410,3 +410,70 @@ body{
     line-height:1.6;
 
 }
+/* ===========================
+   Certifications
+=========================== */
+
+.certifications{
+
+    padding:120px 8%;
+
+}
+
+.cert-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.cert-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    transition:.3s;
+
+}
+
+.cert-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#38bdf8;
+
+}
+
+.cert-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:20px;
+
+}
+
+.cert-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.cert-card span{
+
+    color:#4ade80;
+
+    font-weight:600;
+
+}
