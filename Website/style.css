@@ -205,17 +205,26 @@ body{
 
 }
 
+.primary-btn,
+.secondary-btn{
+
+    transition:.3s ease;
+
+}
+
 .primary-btn:hover{
 
-    transform:translateY(-3px);
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(56,189,248,.35);
 
 }
 
 .secondary-btn:hover{
 
-    background:#38bdf8;
+    transform:translateY(-5px);
 
-    color:#0f172a;
+    box-shadow:0 10px 25px rgba(56,189,248,.20);
 
 }
 
@@ -254,7 +263,7 @@ body{
 
 .about{
 
-    padding:120px 8%;
+    padding:140px 8%;
 
 }
 
@@ -351,7 +360,7 @@ body{
 
 .skills{
 
-    padding:120px 8%;
+    padding:140px 8%;
 
 }
 
@@ -416,7 +425,7 @@ body{
 
 .certifications{
 
-    padding:120px 8%;
+    padding:140px 8%;
 
 }
 
@@ -483,7 +492,7 @@ body{
 
 .projects{
 
-    padding:120px 8%;
+    padding:140px 8%;
 
 }
 
@@ -584,7 +593,7 @@ body{
 
 .contact{
 
-    padding:120px 8%;
+    padding:140px 8%;
 
 }
 
