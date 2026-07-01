@@ -1,52 +1,85 @@
 # AWS Static Portfolio Website
 
-A professional personal portfolio website built using HTML, CSS, and JavaScript, designed to showcase my cloud computing journey and deployed on Amazon S3 with CloudFront.
+## Project Overview
+
+This project demonstrates how to deploy a static portfolio website on AWS using Amazon S3 and Amazon CloudFront.
+
+The website is hosted on Amazon S3, accelerated globally using CloudFront, and delivered securely over HTTPS.
 
 ---
 
-## 📸 Project Preview
+## Architecture
 
-*(Screenshot will be added after deployment.)*
+User
+↓
+CloudFront (CDN + HTTPS)
+↓
+Amazon S3 Static Website Hosting
 
 ---
 
-## ✨ Features
+## AWS Services Used
+
+- Amazon S3
+- Amazon CloudFront
+- AWS IAM
+- AWS Identity Center
+- AWS Free Tier
+
+---
+
+## Features
 
 - Responsive portfolio website
-- Professional landing page
-- About Me section
-- Skills section
-- AWS Certifications section
-- Projects showcase
-- Contact section
-- Mobile-friendly design
+- Static website hosting
+- HTTPS enabled
+- Global content delivery using CloudFront
+- Public certificate downloads
+- GitHub version control
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 - Git
 - GitHub
-- Amazon S3 *(Deployment - Coming Soon)*
-- Amazon CloudFront *(Coming Soon)*
+- AWS
 
 ---
 
-## 📁 Folder Structure
+## Project Screenshots
 
-```text
-aws-static-portfolio-website/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-├── docs/
-├── screenshots/
-├── architecture/
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+(Add screenshots here later.)
+
+---
+
+## Learning Outcomes
+
+Through this project I learned:
+
+- Amazon S3 Static Website Hosting
+- IAM Users and Permissions
+- Bucket Policies
+- CloudFront Distribution
+- HTTPS Delivery
+- Static Website Deployment
+- Git & GitHub Workflow
+
+---
+
+## Future Improvements
+
+- Custom Domain
+- Route 53
+- ACM SSL Certificate
+- CI/CD with GitHub Actions
+- Visitor Counter using Lambda and DynamoDB
+
+---
+
+## Author
+
+Krish singh
