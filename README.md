@@ -1,20 +1,22 @@
 # AWS Static Portfolio Website
 
-## Project Overview
+A responsive personal portfolio website deployed on AWS using Amazon S3 and Amazon CloudFront.
 
-This project demonstrates how to deploy a static portfolio website on AWS using Amazon S3 and Amazon CloudFront.
+The project demonstrates cloud deployment, secure content delivery over HTTPS, and AWS best practices for hosting static websites.
 
-The website is hosted on Amazon S3, accelerated globally using CloudFront, and delivered securely over HTTPS.
+---
+
+## Live Demo
+
+**Website:**
+https://d2lk2nhp66uyva.cloudfront.net
+
 
 ---
 
 ## Architecture
 
-User
-↓
-CloudFront (CDN + HTTPS)
-↓
-Amazon S3 Static Website Hosting
+
 
 ---
 
@@ -32,14 +34,15 @@ Amazon S3 Static Website Hosting
 
 - Responsive portfolio website
 - Static website hosting
-- HTTPS enabled
-- Global content delivery using CloudFront
-- Public certificate downloads
-- GitHub version control
+- HTTPS using CloudFront
+- Global content delivery
+- Downloadable AWS certificates
+- Git version control
+- GitHub repository
 
 ---
 
-## Technologies Used
+## Technologies
 
 - HTML5
 - CSS3
@@ -50,36 +53,98 @@ Amazon S3 Static Website Hosting
 
 ---
 
-## Project Screenshots
+## Project Structure
 
-(Add screenshots here later.)
+```
+AWS-STATIC-PORTFOLIO-WEBSITE/
+│
+├── Architecture/
+├── Docs/
+├── Screenshots/
+├── assets/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Homepage
+
+(Add homepage screenshot)
+
+---
+
+### About Section
+
+(Add screenshot)
+
+---
+
+### Skills
+
+(Add screenshot)
+
+---
+
+### Projects
+
+(Add screenshot)
+
+---
+
+### Mobile View
+
+(Add screenshot)
+
+---
+
+## Deployment Steps
+
+1. Developed website using HTML, CSS and JavaScript.
+2. Uploaded files to Amazon S3.
+3. Enabled Static Website Hosting.
+4. Configured Bucket Policy.
+5. Created CloudFront Distribution.
+6. Enabled HTTPS.
+7. Tested website.
+8. Published project on GitHub.
 
 ---
 
 ## Learning Outcomes
 
-Through this project I learned:
-
 - Amazon S3 Static Website Hosting
-- IAM Users and Permissions
+- IAM Users
+- IAM Permissions
 - Bucket Policies
 - CloudFront Distribution
 - HTTPS Delivery
-- Static Website Deployment
-- Git & GitHub Workflow
+- Cache Invalidation
+- Git Workflow
+- GitHub Workflow
 
 ---
 
 ## Future Improvements
 
-- Custom Domain
 - Route 53
-- ACM SSL Certificate
+- Custom Domain
+- ACM Certificate
 - CI/CD with GitHub Actions
-- Visitor Counter using Lambda and DynamoDB
+- Visitor Counter (Lambda + DynamoDB)
 
 ---
 
 ## Author
 
-Krish singh
+**Krish Singh**
+
+GitHub:
+(Add your GitHub profile link)
+
+LinkedIn:
+(Add your LinkedIn profile link)
