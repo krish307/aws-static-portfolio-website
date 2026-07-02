@@ -14,8 +14,14 @@ https://d2lk2nhp66uyva.cloudfront.net
 
 ---
 
+
 ## Architecture
 
+This website is hosted on **Amazon S3 Static Website Hosting** and delivered globally through **Amazon CloudFront**, which provides HTTPS, caching, and faster content delivery.
+
+### Architecture Diagram
+
+![AWS Static Portfolio Architecture](Architecture/aws-static-portfolio-architecture.drawio%20(1).png)
 
 
 ---
@@ -74,32 +80,30 @@ AWS-STATIC-PORTFOLIO-WEBSITE/
 
 ### Homepage
 
-(Add homepage screenshot)
+![Homepage](Screenshots/final-homepage.png)
 
 ---
 
 ### About Section
 
-(Add screenshot)
+![About Section](Screenshots/about-section.png)
 
 ---
 
 ### Skills
 
-(Add screenshot)
+![Skills Section](Screenshots/skills-section.png)
 
 ---
 
 ### Projects
 
-(Add screenshot)
-
+![Projects Section](Screenshots/projects-section.png)
 ---
 
 ### Mobile View
 
-(Add screenshot)
-
+![Mobile View](Screenshots/mobile-view.png)
 ---
 
 ## Deployment Steps
@@ -144,7 +148,8 @@ AWS-STATIC-PORTFOLIO-WEBSITE/
 **Krish Singh**
 
 GitHub:
-(Add your GitHub profile link)
+https://github.com/krish307
 
 LinkedIn:
-(Add your LinkedIn profile link)
+LinkedIn:
+https://www.linkedin.com/in/krishsingh0001
